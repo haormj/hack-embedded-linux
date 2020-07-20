@@ -21,4 +21,5 @@
     - 需要使用 buildroot output/host/bin 中的交叉编译工具对自己的应用进行编译
     - 然后就可以将自己的应用拷贝到系统中尝试
     - 正式发布的时候，需要在 buildroot 中将自己应用进行添加，并使用 sysvinit/systemd 运行
-
+5. 有没有类似buildroot的其他嵌入式构建工具？
+    - OpenEmbedded http://www.openembedded.org/
